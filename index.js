@@ -11,7 +11,7 @@ const auth = require("./routes/auth");
 
 // connect to db
 
-const DB_URL = 'mongodb+srv://itsmesohit:itsmesohit@cluster0.ad3buwr.mongodb.net'
+const DB_URL = 'your db url here'
 
 mongoose.connect(DB_URL, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => console.log("Connected to DB"))
